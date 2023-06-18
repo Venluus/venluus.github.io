@@ -1,0 +1,512 @@
+body{
+    background-color: beige;
+    margin: 0px;
+}
+
+.kokopalkki{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #958AAA;
+    position: fixed;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    grid-gap: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 98%;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-right: 10px;
+}
+
+.otsikko a{
+    color: black;
+    text-decoration: none;
+}
+
+.otsikko a{
+    transition: color 0.15s;
+}
+
+.otsikko a:hover{
+    color: #f7b169;
+}
+
+.linkbox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palkki a {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #958AAA;
+    border-radius: 10px;
+    transition: border-color 0.15s;
+}
+
+.palkki{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palkki a:hover{
+    border: 2px solid #f7b169;
+    border-radius: 10px;
+}
+
+#portfolio{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.flexbox{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 120px;
+}
+
+#esittely{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: #958AAA;
+    border-radius: 20px;
+    height: 50%;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    padding: 50px;
+}
+
+.omakuva{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kuva1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px;
+}
+
+.kuvarivi1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#kuva2{
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #f7b169;
+    border-radius: 20px;
+}
+
+#kuva3{
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #f7b169;
+    border-radius: 20px;
+}
+
+#kuva4{
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    border: 2px solid #f7b169;
+    border-radius: 20px;
+}
+
+.tekstirivi1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.kuvarivi2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#kuva5{
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #f7b169;
+    border-radius: 20px;
+}
+
+#kuva6{
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #f7b169;
+    border-radius: 20px;
+}
+
+.tekstirivi2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.tekstirivi1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.tekstirivi2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.container2 div a img{
+    transition: box-shadow 0.15s;
+}
+
+.container2 div a img:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.alareuna{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 124, 108);
+    font-family: 'Quicksand';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    font-size: 16px;
+    justify-content: left;
+    align-items: left;
+    color: white;
+}
+
+#insta{
+    width: 25px;
+}
+
+#sposti{
+    width: 25px;
+}
+
+.some{
+    display: flex;
+    align-items: center;
+}
+
+.yhteystiedot{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.scontainer1{
+    display:grid;
+    grid-template-rows: 400px 1fr 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    grid-gap: 50px;
+}
+
+.scontainer1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #047593;
+}
+
+#kuvateksti1{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.scontainer2{
+    display:grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    grid-gap: 50px;
+}
+
+.scontainer2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #f7b169;
+}
+
+#kuvateksti11{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.dcontainer1{
+    display:grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+}
+
+.dcontainer1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #97b1c0;
+}
+
+#kuvateksti3{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    align-items: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.dcontainer2{
+    display:grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+}
+
+.dcontainer2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #958AAA;
+}
+
+#kuvateksti2{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.tcontainer1{
+    display:grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+    margin-bottom: 150px;
+}
+
+.tcontainer1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #047593;
+    border-radius: 10px;
+}
+
+.kuvateksti5{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.tcontainer2{
+    display:grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.tcontainer2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #97b1c0;
+}
+
+.tcontainer3{
+    display:grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+    margin-bottom: 150px;
+}
+
+.tcontainer3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #97b1c0;
+}
+
+.tacontainer1{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 400px 500px;
+    margin-left: 200px;
+    margin-right: 100px;
+    grid-gap: 100px;
+    margin-bottom: 150px;
+}
+
+.tacontainer1 img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #97b1c0;
+}
+
+#kuvateksti4{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    padding: 20px;
+}
+
+#kuvateksti44{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    padding: 50px;
+}
+
+.flexbox2{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox3{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tacontainer2{
+    display:grid;
+    grid-template-rows: 500px 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+    margin-bottom: 150px;
+}
+
+.tacontainer2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffe5ac;
+}
